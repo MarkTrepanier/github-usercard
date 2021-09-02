@@ -38,7 +38,7 @@ const getUserInfo = (gitName) =>{
     user, and adding that card to the DOM.
 */
 
-const followersArray = [];
+const followersArray = ["TamiWohlers","adventurini","bdamore","lindseybrown4","JessicaBrown"];
 
 /* 
   STEP 3: Create a function that accepts a single object as its only argument.
@@ -100,7 +100,8 @@ function userDisplay(userInfo){
 
   return card;
 }
-getUserInfo('dustinmyers');
+followersArray.forEach(user => getUserInfo(user));
+//getUserInfo('3deckererron');
 /*
   List of LS Instructors Github username's:
     tetondan
